@@ -25,7 +25,7 @@ function App() {
    setName('')
    setAge('')
   }
-  
+
   const handleDelete=(index)=>{
     const newstudents=[...students]
     newstudents.splice(index,1)
@@ -82,6 +82,8 @@ function App() {
   </Row>
   </Container>
   )
-}
-
+  }
+  {
+    
+  }
 export default App
